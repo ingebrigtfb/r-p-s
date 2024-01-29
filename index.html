@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>STEIN - SAKS - PAPIR</h1>
+
+    <div class="choices">
+    <button onclick="playGame('stein')">STEIN</button>
+    <button onclick="playGame('saks')">SAKS</button>
+    <button onclick="playGame('papir')">PAPIR</button>
+    </div>
+
+    <div id="playerDisplay">SPILLER:</div>
+    <div id="computerDisplay">DATAMASKIN:</div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Spiller score:
+        <span id="playerScoreDisplay">0</span>
+
+    </div>
+
+    <div class="scoreDisplay">Datamaskin score:
+        <span id="computerScoreDisplay">0</span>
+
+    </div>
+
+    <script src="oppdal.js"></script>
+    
+</body>
+</html>
